@@ -1,30 +1,33 @@
-from pulp import LpMinimize, LpProblem, LpVariable, LpStatus
+from pulp import LpMinimize, LpProblem, LpVariable, lpSum, LpStatus
+
+# Leer los datos de entrada
+matriz = []
+for i in range(10):
+    fila = []
+    for j in range(10):
+        tiempo = int(input(f"Ingrese el tiempo de la ciudad {i+1} a la ciudad {j+1}: "))
+        fila.append(tiempo)
+    matriz.append(fila)
 
 # Crear un problema de minimización
 prob = LpProblem("Programacion_Binaria", LpMinimize)
 
 # Definir las variables de decisión (binarias)
-x = LpVariable('x', cat='Binary')
-y = LpVariable('y', cat='Binary')
-z = LpVariable('z', cat='Binary')
+estaciones = [LpVariable(f'estacion_{i}', cat='Binary') for i in range(10)]
 
 # Definir la función objetivo
-prob += 2 * x + 3 * y + 4 * z, "Función Objetivo"
+prob += lpSum(estaciones), "Minimizar_Estaciones"
 
 # Definir las restricciones
-prob += x + y >= 1, "Restriccion_1"
-prob += y + z >= 1, "Restriccion_2"
+for i in range(10):
+    prob += lpSum(estaciones[j] for j in range(10) if matriz[i][j] <= 40) >= 1, f"Restriccion_Ciudad_{i}"
 
 # Resolver el problema
 prob.solve()
 
-# Mostrar el estado de la solución
-print(f"Estado de la solución: {LpStatus[prob.status]}")
-
-# Mostrar los valores óptimos de las variables
-print(f"x = {x.varValue}")
-print(f"y = {y.varValue}")
-print(f"z = {z.varValue}")
-
-# Mostrar el valor óptimo de la función objetivo
-print(f"Valor óptimo de Z = {prob.objective.value()}")
+# Mostrar los resultados
+print("Estado:", LpStatus[prob.status])
+print("Estaciones construidas:")
+for i in range(10):
+    if estaciones[i].varValue == 1:
+        print(f"Ciudad {i} tendrá una estación.")

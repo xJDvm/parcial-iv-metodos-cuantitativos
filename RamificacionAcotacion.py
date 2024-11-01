@@ -1,29 +1,58 @@
 # Importar la biblioteca de PuLP
-from pulp import LpMaximize, LpProblem, LpVariable, LpStatus, PULP_CBC_CMD
+from pulp import LpMaximize, LpMinimize, LpProblem, LpVariable, LpStatus, PULP_CBC_CMD
 
-# Crear un problema de maximización
-prob = LpProblem("Ejemplo_Programacion_Entera", LpMaximize)
+# Función para leer la función objetivo
+def leer_funcion_objetivo():
+    tipo = input("Ingrese el tipo de problema (max/min): ").strip().lower()
+    num_variables = int(input("Ingrese el número de variables: "))
+    coeficientes = []
+    for i in range(num_variables):
+        coef = int(input(f"Ingrese el coeficiente de x{i+1} en la función objetivo: "))
+        coeficientes.append(coef)
+    return tipo, coeficientes
+
+# Función para leer las restricciones
+def leer_restricciones(num_variables):
+    restricciones = []
+    num_restricciones = int(input("Ingrese el número de restricciones: "))
+    for i in range(num_restricciones):
+        coeficientes_restriccion = []
+        for j in range(num_variables):
+            coef = int(input(f"Ingrese el coeficiente de x{j+1} en la restricción {i+1}: "))
+            coeficientes_restriccion.append(coef)
+        rhs = int(input(f"Ingrese el lado derecho de la restricción {i+1}: "))
+        restricciones.append((coeficientes_restriccion, rhs))
+    return restricciones
+
+# Crear el problema
+tipo, coeficientes = leer_funcion_objetivo()
+if tipo == 'max':
+    prob = LpProblem("Problema_Programacion_Entera", LpMaximize)
+elif tipo == 'min':
+    prob = LpProblem("Problema_Programacion_Entera", LpMinimize)
+else:
+    raise ValueError("Tipo de problema no reconocido. Use 'max' o 'min'.")
 
 # Definir variables (enteras)
-x = LpVariable('x', lowBound=0, cat='Integer')
-y = LpVariable('y', lowBound=0, cat='Integer')
+variables = [LpVariable(f'x{i+1}', lowBound=0, cat='Integer') for i in range(len(coeficientes))]
 
 # Definir la función objetivo
-prob += 3 * x + 2 * y, "Función Objetivo"
+prob += sum(coef * var for coef, var in zip(coeficientes, variables)), "Función Objetivo"
 
-# Definir las restricciones
-prob += x + y <= 4, "Restriccion_1"
-prob += x - y >= 0, "Restriccion_2"
+# Leer y definir las restricciones
+restricciones = leer_restricciones(len(coeficientes))
+for i, (coeficientes_restriccion, rhs) in enumerate(restricciones):
+    prob += sum(coef * var for coef, var in zip(coeficientes_restriccion, variables)) <= rhs, f"Restriccion_{i+1}"
 
-# Resolver el problema utilizando el solucionador por defecto (CBC)
-prob.solve(PULP_CBC_CMD(msg=True))
+# Resolver el problema
+prob.solve(PULP_CBC_CMD(msg=0))
 
-# Mostrar el estado de la solución
-print(f"Estado de la solución: {LpStatus[prob.status]}")
+# Mostrar el estado del problema
+print(f"Estado: {LpStatus[prob.status]}")
 
 # Mostrar los valores óptimos de las variables
-print(f"x = {x.varValue}")
-print(f"y = {y.varValue}")
+for var in variables:
+    print(f"{var.name} = {var.varValue}")
 
 # Mostrar el valor óptimo de la función objetivo
-print(f"Valor óptimo de Z = {prob.objective.value()}")
+print(f"Valor óptimo de la función objetivo: {prob.objective.value()}")

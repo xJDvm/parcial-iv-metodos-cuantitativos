@@ -1,0 +1,361 @@
+----------------------------------------------------------------------------------------------------------
+Ejercicio 1:
+Ingrese el tiempo de la ciudad 1 a la ciudad 1: 0
+Ingrese el tiempo de la ciudad 1 a la ciudad 2: 35
+Ingrese el tiempo de la ciudad 1 a la ciudad 3: 20
+Ingrese el tiempo de la ciudad 1 a la ciudad 4: 40
+Ingrese el tiempo de la ciudad 1 a la ciudad 5: 30
+Ingrese el tiempo de la ciudad 1 a la ciudad 6: 60
+Ingrese el tiempo de la ciudad 1 a la ciudad 7: 60 
+Ingrese el tiempo de la ciudad 1 a la ciudad 8: 20
+Ingrese el tiempo de la ciudad 1 a la ciudad 9: 55
+Ingrese el tiempo de la ciudad 1 a la ciudad 10: 32
+Ingrese el tiempo de la ciudad 2 a la ciudad 1: 35
+Ingrese el tiempo de la ciudad 2 a la ciudad 2: 0
+Ingrese el tiempo de la ciudad 2 a la ciudad 3: 45
+Ingrese el tiempo de la ciudad 2 a la ciudad 4: 35
+Ingrese el tiempo de la ciudad 2 a la ciudad 5: 20
+Ingrese el tiempo de la ciudad 2 a la ciudad 6: 70
+Ingrese el tiempo de la ciudad 2 a la ciudad 7: 30
+Ingrese el tiempo de la ciudad 2 a la ciudad 8: 45
+Ingrese el tiempo de la ciudad 2 a la ciudad 9: 45
+Ingrese el tiempo de la ciudad 2 a la ciudad 10: 34
+Ingrese el tiempo de la ciudad 3 a la ciudad 1: 20
+Ingrese el tiempo de la ciudad 3 a la ciudad 2: 45
+Ingrese el tiempo de la ciudad 3 a la ciudad 3: 0
+Ingrese el tiempo de la ciudad 3 a la ciudad 4: 15
+Ingrese el tiempo de la ciudad 3 a la ciudad 5: 55
+Ingrese el tiempo de la ciudad 3 a la ciudad 6: 20
+Ingrese el tiempo de la ciudad 3 a la ciudad 7: 80
+Ingrese el tiempo de la ciudad 3 a la ciudad 8: 0
+Ingrese el tiempo de la ciudad 3 a la ciudad 9: 90
+Ingrese el tiempo de la ciudad 3 a la ciudad 10: 56
+Ingrese el tiempo de la ciudad 4 a la ciudad 1: 40
+Ingrese el tiempo de la ciudad 4 a la ciudad 2: 35
+Ingrese el tiempo de la ciudad 4 a la ciudad 3: 15
+Ingrese el tiempo de la ciudad 4 a la ciudad 4: 0
+Ingrese el tiempo de la ciudad 4 a la ciudad 5: 65
+Ingrese el tiempo de la ciudad 4 a la ciudad 6: 35
+Ingrese el tiempo de la ciudad 4 a la ciudad 7: 12
+Ingrese el tiempo de la ciudad 4 a la ciudad 8: 15
+Ingrese el tiempo de la ciudad 4 a la ciudad 9: 24
+Ingrese el tiempo de la ciudad 4 a la ciudad 10: 60
+Ingrese el tiempo de la ciudad 5 a la ciudad 1: 30
+Ingrese el tiempo de la ciudad 5 a la ciudad 2: 20
+Ingrese el tiempo de la ciudad 5 a la ciudad 3: 55
+Ingrese el tiempo de la ciudad 5 a la ciudad 4: 65
+Ingrese el tiempo de la ciudad 5 a la ciudad 5: 0
+Ingrese el tiempo de la ciudad 5 a la ciudad 6: 40
+Ingrese el tiempo de la ciudad 5 a la ciudad 7: 40
+Ingrese el tiempo de la ciudad 5 a la ciudad 8: 20
+Ingrese el tiempo de la ciudad 5 a la ciudad 9: 15
+Ingrese el tiempo de la ciudad 5 a la ciudad 10: 12
+Ingrese el tiempo de la ciudad 6 a la ciudad 1: 60
+Ingrese el tiempo de la ciudad 6 a la ciudad 2: 70
+Ingrese el tiempo de la ciudad 6 a la ciudad 3: 20
+Ingrese el tiempo de la ciudad 6 a la ciudad 4: 35
+Ingrese el tiempo de la ciudad 6 a la ciudad 5: 40
+Ingrese el tiempo de la ciudad 6 a la ciudad 6: 0
+Ingrese el tiempo de la ciudad 6 a la ciudad 7: 15
+Ingrese el tiempo de la ciudad 6 a la ciudad 8: 32
+Ingrese el tiempo de la ciudad 6 a la ciudad 9: 0
+Ingrese el tiempo de la ciudad 6 a la ciudad 10: 12
+Ingrese el tiempo de la ciudad 7 a la ciudad 1: 30
+Ingrese el tiempo de la ciudad 7 a la ciudad 2: 40
+Ingrese el tiempo de la ciudad 7 a la ciudad 3: 32
+Ingrese el tiempo de la ciudad 7 a la ciudad 4: 12
+Ingrese el tiempo de la ciudad 7 a la ciudad 5: 55
+Ingrese el tiempo de la ciudad 7 a la ciudad 6: 25
+Ingrese el tiempo de la ciudad 7 a la ciudad 7: 0
+Ingrese el tiempo de la ciudad 7 a la ciudad 8: 34
+Ingrese el tiempo de la ciudad 7 a la ciudad 9: 65
+Ingrese el tiempo de la ciudad 7 a la ciudad 10: 55
+Ingrese el tiempo de la ciudad 8 a la ciudad 1: 80
+Ingrese el tiempo de la ciudad 8 a la ciudad 2: 12
+Ingrese el tiempo de la ciudad 8 a la ciudad 3: 34
+Ingrese el tiempo de la ciudad 8 a la ciudad 4: 67
+Ingrese el tiempo de la ciudad 8 a la ciudad 5: 45
+Ingrese el tiempo de la ciudad 8 a la ciudad 6: 60
+Ingrese el tiempo de la ciudad 8 a la ciudad 7: 65
+Ingrese el tiempo de la ciudad 8 a la ciudad 8: 0
+Ingrese el tiempo de la ciudad 8 a la ciudad 9: 30
+Ingrese el tiempo de la ciudad 8 a la ciudad 10: 45
+Ingrese el tiempo de la ciudad 9 a la ciudad 1: 12
+Ingrese el tiempo de la ciudad 9 a la ciudad 2: 34
+Ingrese el tiempo de la ciudad 9 a la ciudad 3: 56
+Ingrese el tiempo de la ciudad 9 a la ciudad 4: 78
+Ingrese el tiempo de la ciudad 9 a la ciudad 5: 90
+Ingrese el tiempo de la ciudad 9 a la ciudad 6: 100
+Ingrese el tiempo de la ciudad 9 a la ciudad 7: 35
+Ingrese el tiempo de la ciudad 9 a la ciudad 8: 20
+Ingrese el tiempo de la ciudad 9 a la ciudad 9: 0
+Ingrese el tiempo de la ciudad 9 a la ciudad 10: 90
+Ingrese el tiempo de la ciudad 10 a la ciudad 1: 40
+Ingrese el tiempo de la ciudad 10 a la ciudad 2: 12
+Ingrese el tiempo de la ciudad 10 a la ciudad 3: 40
+Ingrese el tiempo de la ciudad 10 a la ciudad 4: 20
+Ingrese el tiempo de la ciudad 10 a la ciudad 5: 24
+Ingrese el tiempo de la ciudad 10 a la ciudad 6: 10
+Ingrese el tiempo de la ciudad 10 a la ciudad 7: 12
+Ingrese el tiempo de la ciudad 10 a la ciudad 8: 0
+Ingrese el tiempo de la ciudad 10 a la ciudad 9: 20
+Ingrese el tiempo de la ciudad 10 a la ciudad 10: 0
+Welcome to the CBC MILP Solver 
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - C:\Users\jvaldes\AppData\Local\Programs\Python\Python312\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\jvaldes\AppData\Local\Temp\fc3748fd7b484bf79bb84d1f9562f4d4-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\Users\jvaldes\AppData\Local\Temp\fc3748fd7b484bf79bb84d1f9562f4d4-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 15 COLUMNS
+At line 114 RHS
+At line 125 BOUNDS
+At line 136 ENDATA
+Problem MODEL has 10 rows, 10 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 1.5 - 0.00 seconds
+Cgl0004I processed model has 10 rows, 9 columns (9 integer (8 of which binary)) and 63 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 3 integers unsatisfied sum - 1.5
+Cbc0038I Pass   1: suminf.    0.00000 (0) obj. 2 iterations 6
+Cbc0038I Solution found of 2
+Cbc0038I Cleaned solution of 2
+Cbc0038I Before mini branch and bound, 5 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.01 seconds)
+Cbc0038I After 0.01 seconds - Feasibility pump exiting with objective of 2 - took 0.00 seconds
+Cbc0012I Integer solution of 2 found by feasibility pump after 0 iterations and 0 nodes (0.01 seconds)
+Cbc0001I Search completed - best objective 2, took 0 iterations and 0 nodes (0.01 seconds)
+Cbc0035I Maximum depth 0, 2 variables fixed on reduced cost
+Cuts at root node changed objective from 1.5 to 1.5
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)  
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)   
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds) 
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds) 
+
+Result - Optimal solution found
+
+Objective value:                2.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.02
+Time (Wallclock seconds):       0.02
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.03   (Wallclock seconds):       0.03
+
+Estado: Optimal
+Estaciones construidas:
+Ciudad 4 tendrá una estación.
+Ciudad 7 tendrá una estación.
+
+*ES UN MODELO PURO*
+
+Conclusión:
+Al construir estaciones en las ciudades 4 y 7, se garantiza que todas las demás ciudades estén a una distancia de viaje de 40 minutos o menos. Esta solución es la más eficiente en términos de minimizar el número de estaciones necesarias para cubrir toda la red de ciudades.
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+Ejercicio 2:
+Ejercicion MIN:
+Ingrese el tipo de problema (max/min): min
+Ingrese el número de variables: 2
+Ingrese el coeficiente de x1 en la función objetivo: -5
+Ingrese el coeficiente de x2 en la función objetivo: -8
+Ingrese el número de restricciones: 2
+Ingrese el coeficiente de x1 en la restricción 1: 1
+Ingrese el coeficiente de x2 en la restricción 1: 1
+Ingrese el lado derecho de la restricción 1: 6
+Ingrese el coeficiente de x1 en la restricción 2: 5
+Ingrese el coeficiente de x2 en la restricción 2: 9
+Ingrese el lado derecho de la restricción 2: 45
+Estado: Optimal
+x1 = 0.0
+x2 = 5.0
+Valor óptimo de la función objetivo: -40.0
+
+
+EJERCICIO MAX:
+Ingrese el tipo de problema (max/min): max
+Ingrese el número de variables: 2
+Ingrese el coeficiente de x1 en la función objetivo: 80
+Ingrese el coeficiente de x2 en la función objetivo: 45
+Ingrese el número de restricciones: 2
+Ingrese el coeficiente de x1 en la restricción 1: 1
+Ingrese el coeficiente de x2 en la restricción 1: 1
+Ingrese el lado derecho de la restricción 1: 7
+Ingrese el coeficiente de x1 en la restricción 2: 12
+Ingrese el coeficiente de x2 en la restricción 2: 5
+Ingrese el lado derecho de la restricción 2: 60
+Estado: Optimal
+x1 = 3.0
+x2 = 4.0
+Valor óptimo de la función objetivo: 420.0
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+Ejercicio 3:
+
+Ingrese la capacidad máxima de la mochila (kg): 50
+Ingrese el número de objetos: 6
+Ingrese el peso del objeto 1 (kg): 10
+Ingrese el valor del objeto 1: 60
+Ingrese el peso del objeto 2 (kg): 20
+Ingrese el valor del objeto 2: 100
+Ingrese el peso del objeto 3 (kg): 15
+Ingrese el valor del objeto 3: 90
+Ingrese el peso del objeto 4 (kg): 25
+Ingrese el valor del objeto 4: 120
+Ingrese el peso del objeto 5 (kg): 30
+Ingrese el valor del objeto 5: 150
+Ingrese el peso del objeto 6 (kg): 12
+Ingrese el valor del objeto 6: 80
+
+--- Paso 1: Crear el problema de maximización ---
+
+--- Paso 2: Definir las variables de decisión ---
+Variables de decisión definidas (0 = no seleccionado, 1 = seleccionado):
+x_1 -> Objeto 1
+x_2 -> Objeto 2
+x_3 -> Objeto 3
+x_4 -> Objeto 4
+x_5 -> Objeto 5
+x_6 -> Objeto 6
+
+--- Paso 3: Definir la función objetivo ---
+Función objetivo formulada: Maximizar el valor total de los objetos seleccionados.
+
+--- Paso 4: Definir la restricción de capacidad ---
+Restricción de capacidad formulada: La suma de los pesos no debe exceder 50.0 kg.
+
+--- Paso 5: Resolver el problema ---
+Welcome to the CBC MILP Solver 
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - C:\Users\jvaldes\AppData\Local\Programs\Python\Python312\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\jvaldes\AppData\Local\Temp\69c853f4d62c4ffc9c9874a6c5faa342-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution C:\Users\jvaldes\AppData\Local\Temp\69c853f4d62c4ffc9c9874a6c5faa342-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 6 COLUMNS
+At line 31 RHS
+At line 33 BOUNDS
+At line 40 ENDATA
+Problem MODEL has 1 rows, 6 columns and 6 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 295 - 0.00 seconds
+Cgl0004I processed model has 1 rows, 6 columns (6 integer (6 of which binary)) and 6 elements
+Cutoff increment increased from 1e-05 to 9.9999
+Cbc0038I Initial state - 1 integers unsatisfied sum - 0.433333
+Cbc0038I Solution found of -230
+Cbc0038I Before mini branch and bound, 5 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 1 rows 6 columns, reduced to 0 rows 0 columns
+Cbc0038I Mini branch and bound did not improve solution (0.01 seconds)
+Cbc0038I Round again with cutoff of -245.5
+Cbc0038I Pass   1: suminf.    0.10333 (1) obj. -245.5 iterations 1
+Cbc0038I Pass   2: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass   3: suminf.    0.43333 (1) obj. -295 iterations 0
+Cbc0038I Pass   4: suminf.    0.08000 (1) obj. -280.4 iterations 2
+Cbc0038I Pass   5: suminf.    0.49667 (1) obj. -245.5 iterations 2
+Cbc0038I Pass   6: suminf.    0.23333 (1) obj. -285 iterations 1
+Cbc0038I Pass   7: suminf.    0.10000 (1) obj. -285 iterations 1
+Cbc0038I Solution found of -270
+Cbc0038I Before mini branch and bound, 2 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 1 rows 6 columns, reduced to 1 rows 2 columns
+Cbc0038I Mini branch and bound did not improve solution (0.02 seconds)
+Cbc0038I Round again with cutoff of -283
+Cbc0038I Reduced cost fixing fixed 2 variables on major pass 3
+Cbc0038I Pass   8: suminf.    0.35333 (1) obj. -283 iterations 0
+Cbc0038I Pass   9: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass  10: suminf.    0.35000 (1) obj. -295 iterations 1
+Cbc0038I Pass  11: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  12: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  13: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  14: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  15: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  16: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  17: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  18: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  19: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  20: suminf.    0.35000 (1) obj. -295 iterations 0
+Cbc0038I Pass  21: suminf.    0.08667 (1) obj. -283 iterations 3
+Cbc0038I Pass  22: suminf.    0.10000 (1) obj. -285 iterations 1
+Cbc0038I Pass  23: suminf.    0.08667 (1) obj. -283 iterations 1
+Cbc0038I Pass  24: suminf.    0.24667 (1) obj. -283 iterations 1
+Cbc0038I Pass  25: suminf.    0.23333 (1) obj. -285 iterations 1
+Cbc0038I Pass  26: suminf.    0.24667 (1) obj. -283 iterations 1
+Cbc0038I Pass  27: suminf.    0.23333 (1) obj. -285 iterations 1
+Cbc0038I Pass  28: suminf.    0.24667 (1) obj. -283 iterations 1
+Cbc0038I Pass  29: suminf.    0.83334 (2) obj. -283 iterations 2
+Cbc0038I Pass  30: suminf.    0.83334 (2) obj. -283 iterations 0
+Cbc0038I Pass  31: suminf.    0.43333 (1) obj. -295 iterations 2
+Cbc0038I Pass  32: suminf.    0.35333 (1) obj. -283 iterations 1
+Cbc0038I Pass  33: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass  34: suminf.    0.35333 (1) obj. -283 iterations 1
+Cbc0038I Pass  35: suminf.    0.43333 (1) obj. -295 iterations 1
+Cbc0038I Pass  36: suminf.    0.48000 (1) obj. -292.4 iterations 1
+Cbc0038I Pass  37: suminf.    0.48000 (1) obj. -292.4 iterations 0
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 2 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 1 rows 6 columns, reduced to 1 rows 2 columns
+Cbc0038I Mini branch and bound did not improve solution (0.04 seconds)
+Cbc0038I After 0.04 seconds - Feasibility pump exiting with objective of -270 - took 0.03 seconds
+Cbc0012I Integer solution of -270 found by feasibility pump after 0 iterations and 0 nodes (0.04 seconds)        
+Cbc0038I Full problem 1 rows 6 columns, reduced to 1 rows 2 columns
+Cbc0006I The LP relaxation is infeasible or too expensive
+Cbc0013I At root node, 0 cuts changed objective from -295 to -295 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 1 row cuts average 0.0 elements, 1 column cuts (1 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (ZeroHalf) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0001I Search completed - best objective -270, took 0 iterations and 0 nodes (0.05 seconds)
+Cbc0035I Maximum depth 0, 1 variables fixed on reduced cost
+Cuts at root node changed objective from -295 to -295
+Probing was tried 1 times and created 2 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)  
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)   
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds) 
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)   
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds) 
+
+Result - Optimal solution found
+
+Objective value:                270.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.05
+Time (Wallclock seconds):       0.05
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.06   (Wallclock seconds):       0.06
+
+Estado de la solución: Optimal
+
+--- Paso 6: Mostrar los objetos seleccionados ---
+Objeto 1: No seleccionado (Peso: 10.0, Valor: 60.0)
+Objeto 2: Seleccionado (Peso: 20.0, Valor: 100.0)
+Objeto 3: Seleccionado (Peso: 15.0, Valor: 90.0)
+Objeto 4: No seleccionado (Peso: 25.0, Valor: 120.0)
+Objeto 5: No seleccionado (Peso: 30.0, Valor: 150.0)
+Objeto 6: Seleccionado (Peso: 12.0, Valor: 80.0)
+
+--- Paso 7: Resultados finales ---
+Valor total en la mochila: 270.0
+Peso total en la mochila: 47.0
+
+Conclusion:
+Al resolver el problema de la mochila utilizando programación lineal entera, se determinó que la combinación óptima de objetos para maximizar el valor total dentro de la capacidad de la mochila es incluir los objetos 2, 3 y 6. Esta solución proporciona el mayor valor posible sin exceder el límite de peso establecido. Los resultados obtenidos demuestran la efectividad de los modelos de optimización matemática para resolver problemas de toma de decisiones en diversas áreas, donde se busca optimizar la utilización de recursos limitados.

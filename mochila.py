@@ -28,7 +28,7 @@ def resolver_mochila(pesos, valores, capacidad):
     problema_mochila.solve()
     print(f"Estado de la solución: {LpStatus[problema_mochila.status]}")
 
-    # Paso 6: Mostrar los valores óptimos de las variables (objetos seleccionados)
+    # Paso 6: Mostrar los objetos seleccionados
     print("\n--- Paso 6: Mostrar los objetos seleccionados ---")
     for i in range(n):
         print(f"Objeto {i+1}: {'Seleccionado' if x[i].varValue == 1 else 'No seleccionado'} (Peso: {pesos[i]}, Valor: {valores[i]})")
@@ -40,10 +40,19 @@ def resolver_mochila(pesos, valores, capacidad):
     print(f"Valor total en la mochila: {valor_total}")
     print(f"Peso total en la mochila: {peso_total}")
 
-# Datos del problema de la mochila
-pesos = [3, 6, 5, 5, 7]       # Pesos de los objetos
-valores = [15, 25, 12, 10, 15]  # Valores de los objetos
-capacidad = 120              # Capacidad máxima de la mochila
-
-# Llamar a la función para resolver el problema
-resolver_mochila(pesos, valores, capacidad)
+if __name__ == "__main__":
+    # Solicitar al usuario que ingrese los datos
+    capacidad = float(input("Ingrese la capacidad máxima de la mochila (kg): "))
+    n = int(input("Ingrese el número de objetos: "))
+    
+    pesos = []
+    valores = []
+    
+    for i in range(n):
+        peso = float(input(f"Ingrese el peso del objeto {i+1} (kg): "))
+        valor = float(input(f"Ingrese el valor del objeto {i+1}: "))
+        pesos.append(peso)
+        valores.append(valor)
+    
+    # Llamar a la función para resolver el problema
+    resolver_mochila(pesos, valores, capacidad)
